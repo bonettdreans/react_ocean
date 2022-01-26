@@ -1,7 +1,14 @@
-import React from "react"
-import reactDom from "react-dom"
+import React from "react";
+import reactDom from "react-dom";
+
+function HelloWorld() {
+    return (
+        <p>Olá Mundo!!  </p>
+    )
+}
 
 reactDom.render(
-    <p>Hello World</p>,
+    <HelloWorld />,
+
     document.getElementById("root")
-)
+);
